@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-class Employee 
+namespace WiredBrainCoffee.StorageApp.Entities;
+public class Employee 
 {
     public  int id { get; set; }
     public  string FirstName { get; set; }
