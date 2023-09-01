@@ -16,9 +16,9 @@ public class EmployeeRepositry
 
     public void Save()
     {
-        foreach (Employee emp in _employees)
+        foreach (var emp in _employees)
         {
-            Console.WriteLine(_employees);
+            Console.WriteLine(emp.ToString());
         }
     }
 }

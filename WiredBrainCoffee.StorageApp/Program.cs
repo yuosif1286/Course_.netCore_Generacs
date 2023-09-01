@@ -10,4 +10,6 @@ employeeRepo.Add(new Employee { FirstName = "yoyo" });
 employeeRepo.Add(new Employee { FirstName = "ali" });
 employeeRepo.Add(new Employee { FirstName = "moshtack" });
 
+employeeRepo.Save();
+
 Console.ReadLine();
