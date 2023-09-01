@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{B02EC402-FE1A-4BC6-8667-6873A2851CE7}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.WiredBrainCoffee.StackApp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WiredBrainCoffee.StackApp/Program.cs">
+    <Files>
+      <File FileName="WiredBrainCoffee.StackApp/Program.cs" Line="33" Column="71" />
+      <File FileName="WiredBrainCoffee.StackApp/simpleStack.cs" Line="6" Column="35" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WiredBrainCoffee.StackApp">
+            <Node name="WiredBrainCoffee.StackApp">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
