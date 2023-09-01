@@ -12,7 +12,7 @@ double sum = 0.0;
 while (stack.Count>0)
 {
     sum += stack.Pop();
-    Console.WriteLine($"item index:{stack.Count} => Value:{stack.Pop}");
+    Console.WriteLine($"item index:{stack.Count} => Value:{stack.Pop()}");
 }
 
 Console.WriteLine($"sum item in stack : {sum}");
@@ -20,17 +20,17 @@ Console.WriteLine($"sum item in stack : {sum}");
 
 
 Console.WriteLine("this for type int");
-var stackint = new simpleStack<int>();
+var stackInt = new simpleStack<int>();
 
-stackint.Push(1);
-stackint.Push(2);
-stackint.Push(4);
+stackInt.Push(1);
+stackInt.Push(2);
+stackInt.Push(4);
 
  sum = 0.0;
-while (stackint.Count > 0)
+while (stackInt.Count > 0)
 {
-    sum += stackint.Pop();
-    Console.WriteLine($"item index:{stackint.Count} => Value:{stackint.Pop}");
+    sum += stackInt.Pop();
+    Console.WriteLine($"item index:{stackInt.Count} => Value:{stackInt.Pop()}");
 }
 
 Console.WriteLine($"sum item in stack : {sum}");
