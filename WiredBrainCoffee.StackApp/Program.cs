@@ -2,29 +2,22 @@
 using WiredBrainCoffee.StackApp;
 
 
-void StackInt()
-{
-    double d;
-    Console.WriteLine("this for type int");
-    var stackInt = new SimpleStack<int>();
-
-    stackInt.Push(1);
-    stackInt.Push(2);
-    stackInt.Push(4);
-
-    d = 0.0;
-    while (stackInt.Count > 0)
-    {
-        var item = stackInt.Pop();
-        Console.WriteLine($"item index:{stackInt.Count} => Value:{item}");
-        d += item;
-    }
-
-    Console.WriteLine($"sum item in stack : {d}");
-}
 
 StackDouble();
-StackInt();
+StackString();
+
+void StackString()
+{
+   var stack=new Stack<string>();
+
+    stack.Push("first item");
+    stack.Push("secound item");
+
+    while (stack.Count>0)
+    {
+        Console.WriteLine($"item :{stack.Pop()}");
+    }
+}
 
 Console.ReadLine();
 
