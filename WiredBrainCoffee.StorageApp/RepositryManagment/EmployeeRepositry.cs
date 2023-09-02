@@ -4,23 +4,27 @@ using WiredBrainCoffee.StorageApp.Entities;
 
 namespace WiredBrainCoffee.StorageApp.RepositryManagment;
 
-public class GeneracRepositry<T/*,Tkey*/> where T :EntityBase<int>
+public class GeneracRepositry<T /*,Tkey*/> where T : class, IEntityBase<int>
 {
     //protected Tkey? key { get; set; }
 
-    private readonly List<T> Items=new ();
+    private readonly List<T> _items=new ();
 
-    public  T GetById(int Id) => Items.Single(x => x.Id == Id);
-    public void Add(T item)
+    public  T GetById(int id)
     {
-        item.Id = Items.Count + 1;
-        Items.Add(item);
+        return _items.Single(x => x.Id == id);
     }
 
-    public void Remove(T item) => Items.Remove(item);
+    public void Add(T item)
+    {
+        item.Id = _items.Count + 1;
+        _items.Add(item);
+    }
+
+    public void Remove(T item) => _items.Remove(item);
     public void Save()
     {
-        foreach (var item in Items)
+        foreach (var item in _items)
         {
             Console.WriteLine(item);
         }
