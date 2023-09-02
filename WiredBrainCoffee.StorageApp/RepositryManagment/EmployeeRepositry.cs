@@ -4,8 +4,9 @@ using WiredBrainCoffee.StorageApp.Entities;
 
 namespace WiredBrainCoffee.StorageApp.RepositryManagment;
 
-public class GeneracRepositry<T>
+public class GeneracRepositry<T,Tkey>
 {
+    protected Tkey? key { get; set; }
 
     protected readonly List<T> Items=new ();
 
