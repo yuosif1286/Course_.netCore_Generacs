@@ -4,21 +4,21 @@ using WiredBrainCoffee.StorageApp.Entities;
 
 namespace WiredBrainCoffee.StorageApp.RepositryManagment;
 
-public class EmployeeRepositry
+public class GeneracRepositry<T>
 {
 
-    private readonly List<Employee> _employees=new ();
+    protected readonly List<T> Items=new ();
 
-   public void Add(Employee employee)
+   public void Add(T item)
     {
-        _employees.Add (employee); 
+        Items.Add (item); 
     }
 
     public void Save()
     {
-        foreach (var emp in _employees)
+        foreach (var item in Items)
         {
-            Console.WriteLine(emp.ToString());
+            Console.WriteLine(item);
         }
     }
 }
