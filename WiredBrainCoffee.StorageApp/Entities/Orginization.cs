@@ -1,8 +1,7 @@
 ﻿namespace WiredBrainCoffee.StorageApp.Entities;
 
-public class Orginization
+public class Orginization:EntityBase<int>
 {
-    public int Id { get; set; }
     public string? Name { get; set; }
 
     public override string ToString()

@@ -2,7 +2,7 @@
 
 namespace WiredBrainCoffee.StorageApp.RepositryManagment;
 
-public class GeneracRepositryWithRemove<T,TK>:GeneracRepositry<T,TK>
+public class GeneracRepositryWithRemove//<T,TK>:GeneracRepositry<T,TK>
 {
-    public void Remove(T item) => Items.Remove(item);
+    
 }

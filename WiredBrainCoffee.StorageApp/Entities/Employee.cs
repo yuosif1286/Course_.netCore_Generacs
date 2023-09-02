@@ -1,8 +1,7 @@
 ﻿namespace WiredBrainCoffee.StorageApp.Entities;
 
-public class Employee
+public class Employee:EntityBase<int>
 {
-    public int Id { get; set; }
     public string? FirstName { get; set; }
 
     public override string ToString()
