@@ -1,10 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.Linq.Expressions;
 using WiredBrainCoffee.StorageApp.Entities;
 
 namespace WiredBrainCoffee.StorageApp.RepositryManagment;
 
-public class GeneracRepositry<T /*,Tkey*/> where T : class, IEntityBase<int>
+public class ListRepository<T /*,Tkey*/> where T : class, IEntityBase<int>
 {
     //protected Tkey? key { get; set; }
 
@@ -14,6 +15,7 @@ public class GeneracRepositry<T /*,Tkey*/> where T : class, IEntityBase<int>
     {
         return _items.Single(x => x.Id == id);
     }
+    
 
     public void Add(T item)
     {
