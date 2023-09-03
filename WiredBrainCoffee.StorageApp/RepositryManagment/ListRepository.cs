@@ -5,7 +5,7 @@ using WiredBrainCoffee.StorageApp.Entities;
 
 namespace WiredBrainCoffee.StorageApp.RepositryManagment;
 
-public class ListRepository<T /*,Tkey*/> where T : class, IEntityBase<int>
+public class ListRepository<T /*,Tkey*/> :IRepository<T> where T : class, IEntityBase<int>
 {
     //protected Tkey? key { get; set; }
 

@@ -1,21 +1,23 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //good work
+
+using WiredBrainCoffee.StorageApp.Data;
 using WiredBrainCoffee.StorageApp.Entities;
 using WiredBrainCoffee.StorageApp.RepositryManagment;
 
-var employeeRepo = new GeneracRepositry<Employee>();
+var employeeRepo = new SqlRepository<Employee>(new AppDbContext());
 
 AddEmployee(employeeRepo);
 
 GetEmployeeById(employeeRepo);
 
-var orginRepo = new GeneracRepositry<Orginization>();
+var orginRepo = new ListRepository<Orginization>();
 
 AddOrgin(orginRepo);
 
 Console.ReadLine();
 
-static void AddEmployee(GeneracRepositry<Employee> employeeRepo)
+static void AddEmployee(IRepository<Employee> employeeRepo)
 {
     employeeRepo.Add(new Employee { FirstName = "yoyo" });
 
@@ -23,7 +25,7 @@ static void AddEmployee(GeneracRepositry<Employee> employeeRepo)
     employeeRepo.Add(new Employee { FirstName = "moshtack" });
 }
 
-static void AddOrgin(GeneracRepositry<Orginization> orginRepo)
+static void AddOrgin(IRepository<Orginization> orginRepo)
 {
     orginRepo.Add(new Orginization { Name = "Alkafeel" });
 
@@ -33,7 +35,7 @@ static void AddOrgin(GeneracRepositry<Orginization> orginRepo)
     orginRepo.Save();
 }
 
-static void GetEmployeeById(GeneracRepositry<Employee> employeeRepo)
+static void GetEmployeeById(IRepository<Employee> employeeRepo)
 {
     var employee = employeeRepo.GetById(2);
 
