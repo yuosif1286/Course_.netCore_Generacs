@@ -15,9 +15,13 @@ void AddManager(IWriteRepositery<Manager> managerRepo)
 {
     var zainabManager = new Manager() { FirstName = "zainab" };
     var copyZainab = zainabManager.Copy();
-    copyZainab.FirstName += "_Copy";
-    managerRepo.Add(zainabManager);
-    managerRepo.Add(copyZainab);
+    if (copyZainab != null)
+    {
+        copyZainab.FirstName += "_Copy";
+        managerRepo.Add(zainabManager);
+        managerRepo.Add(copyZainab);
+    }
+
     managerRepo.Add(new Manager() { FirstName = "fofo" });
     managerRepo.Save();
 }
