@@ -8,8 +8,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="793b8624-0928-415f-b02d-8078756f0f24" name="Changes" comment="edit">
-      <change afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/RepositoryExtension.cs" afterDir="false" />
+    <list default="true" id="793b8624-0928-415f-b02d-8078756f0f24" name="Changes" comment="RepositoryExtension.cs new add">
+      <change afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Entities/EntityExtension.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +29,7 @@
     <setting file="mock:///Users/yuosif/Projects/Course_.netCore_Generacs/WiredBrainCoffee.StackApp/WiredBrainCoffee.StorageApp/Data/AppDbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/yuosif/Projects/Course_.netCore_Generacs/WiredBrainCoffee.StackApp/WiredBrainCoffee.StorageApp/Entities/EntityBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/yuosif/Projects/Course_.netCore_Generacs/WiredBrainCoffee.StackApp/WiredBrainCoffee.StorageApp/Entities/IEntityBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/yuosif/Projects/Course_.netCore_Generacs/WiredBrainCoffee.StackApp/WiredBrainCoffee.StorageApp/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/yuosif/Projects/Course_.netCore_Generacs/WiredBrainCoffee.StackApp/WiredBrainCoffee.StorageApp/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/yuosif/Projects/Course_.netCore_Generacs/WiredBrainCoffee.StackApp/WiredBrainCoffee.StorageApp/RepositryManagment/IRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/yuosif/Projects/Course_.netCore_Generacs/WiredBrainCoffee.StackApp/WiredBrainCoffee.StorageApp/RepositryManagment/ListRepository.cs" root0="SKIP_HIGHLIGHTING" />
@@ -130,7 +131,7 @@
       <workItem from="1693666807046" duration="6912000" />
       <workItem from="1693706447109" duration="3065000" />
       <workItem from="1693901058905" duration="4222000" />
-      <workItem from="1693946439009" duration="2936000" />
+      <workItem from="1693946439009" duration="4167000" />
     </task>
     <task id="LOCAL؜-٠٠٠٠١" summary="new project">
       <option name="closed" value="true" />
@@ -260,7 +261,15 @@
       <option name="project" value="LOCAL؜" />
       <updated>1693953014289</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL؜-٠٠٠١٧" summary="RepositoryExtension.cs new add">
+      <option name="closed" value="true" />
+      <created>1693954741150</created>
+      <option name="number" value="٠٠٠١٧" />
+      <option name="presentableId" value="LOCAL؜-٠٠٠١٧" />
+      <option name="project" value="LOCAL؜" />
+      <updated>1693954741150</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,6 +317,7 @@
     <MESSAGE value="edit ientityBase" />
     <MESSAGE value="create generic method" />
     <MESSAGE value="edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit" />
+    <MESSAGE value="RepositoryExtension.cs new add" />
+    <option name="LAST_COMMIT_MESSAGE" value="RepositoryExtension.cs new add" />
   </component>
 </project>

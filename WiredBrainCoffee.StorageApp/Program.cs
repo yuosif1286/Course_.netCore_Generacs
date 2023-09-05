@@ -13,7 +13,11 @@ AddManager(employeeRepo);
 
 void AddManager(IWriteRepositery<Manager> managerRepo)
 {
-    managerRepo.Add(new Manager() { FirstName="zainab"});
+    var zainabManager = new Manager() { FirstName = "zainab" };
+    var copyZainab = zainabManager.Copy();
+    copyZainab.FirstName += "_Copy";
+    managerRepo.Add(zainabManager);
+    managerRepo.Add(copyZainab);
     managerRepo.Add(new Manager() { FirstName = "fofo" });
     managerRepo.Save();
 }
