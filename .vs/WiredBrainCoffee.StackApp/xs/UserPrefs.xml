@@ -1,37 +1,34 @@
 ﻿<Properties StartupConfiguration="{611A4645-32F1-41DB-A390-5E868C0C5B32}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.WiredBrainCoffee.StackApp PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/yuosif/Projects/Course_.netCore_Generacs/WiredBrainCoffee.StackApp/WiredBrainCoffee.StorageApp/Program.cs" relfile="WiredBrainCoffee.StorageApp/Program.cs" line="17" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="WiredBrainCoffee.StorageApp/Data/AppDbContext.cs">
+  <MonoDevelop.Ide.ItemProperties.WiredBrainCoffee.StorageApp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WiredBrainCoffee.StorageApp/Program.cs">
     <Files>
-      <File FileName="WiredBrainCoffee.StorageApp/Program.cs" Line="18" Column="1" />
-      <File FileName="WiredBrainCoffee.StorageApp/RepositryManagment/SqlRepository.cs" Line="7" Column="33" />
-      <File FileName="WiredBrainCoffee.StorageApp/RepositryManagment/ISqlRepository.cs" Line="7" Column="28" />
-      <File FileName="WiredBrainCoffee.StorageApp/RepositryManagment/ListRepository.cs" Line="37" Column="50" />
-      <File FileName="WiredBrainCoffee.StorageApp/Data/AppDbContext.cs" Line="1" Column="1" />
+      <File FileName="WiredBrainCoffee.StorageApp/Program.cs" Line="59" Column="50" />
+      <File FileName="WiredBrainCoffee.StorageApp/RepositryManagment/ListRepository.cs" Line="10" Column="40" />
+      <File FileName="WiredBrainCoffee.StorageApp/Entities/IEntityBase.cs" Line="3" Column="19" />
+      <File FileName="WiredBrainCoffee.StorageApp/RepositryManagment/IRepository.cs" Line="17" Column="21" />
+      <File FileName="WiredBrainCoffee.StorageApp/Entities/EntityBase.cs" Line="4" Column="26" />
+      <File FileName="WiredBrainCoffee.StorageApp/Entities/Employee.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="WiredBrainCoffee.StackApp">
+          <Node name="WiredBrainCoffee.StackApp" expanded="True">
             <Node name="WiredBrainCoffee.StorageApp">
-              <Node name="Data" expanded="True">
-                <Node name="AppDbContext.cs" selected="True" />
-              </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="Entities" expanded="True" />
+              <Node name="RepositryManagment" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.WiredBrainCoffee.StorageApp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.WiredBrainCoffee.StackApp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>

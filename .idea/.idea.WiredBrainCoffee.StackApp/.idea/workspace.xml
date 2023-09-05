@@ -9,16 +9,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="793b8624-0928-415f-b02d-8078756f0f24" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WiredBrainCoffee.StackApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WiredBrainCoffee.StackApp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/WiredBrainCoffee.StackApp/xs/UserPrefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/WiredBrainCoffee.StackApp/xs/UserPrefs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Entities/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Entities/Employee.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/WiredBrainCoffee.StackApp/xs/project-cache/WiredBrainCoffee.StorageApp-Debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/WiredBrainCoffee.StackApp/xs/project-cache/WiredBrainCoffee.StorageApp-Debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Data/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Data/AppDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Entities/EntityBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Entities/EntityBase.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Entities/IEntityBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Entities/IEntityBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Entities/Orginization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Entities/Orginization.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Entities/Orginization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Entities/Organization.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/IRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/ListRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/ListRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/SqlRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/SqlRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/RepositoryBase.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +134,7 @@
       <workItem from="1693666807046" duration="6912000" />
       <workItem from="1693706447109" duration="3065000" />
       <workItem from="1693901058905" duration="4222000" />
+      <workItem from="1693946439009" duration="1605000" />
     </task>
     <task id="LOCAL؜-٠٠٠٠١" summary="new project">
       <option name="closed" value="true" />
