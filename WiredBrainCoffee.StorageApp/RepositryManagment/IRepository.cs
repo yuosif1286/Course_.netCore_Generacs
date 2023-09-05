@@ -14,7 +14,7 @@ namespace WiredBrainCoffee.StorageApp.RepositryManagment
         T? GetById(int id);
     }
     public interface IRepository<T> :IReadRepository<T> , IWriteRepositery<T>
-        where T :  EntityBase
+        where T :  IEntityBase
     {
      
     }

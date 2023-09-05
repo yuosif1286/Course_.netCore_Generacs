@@ -1,6 +1,6 @@
 namespace WiredBrainCoffee.StorageApp.Entities;
 
-public interface EntityBase
+public interface IEntityBase
 {
     int Id { get; set; }
 }

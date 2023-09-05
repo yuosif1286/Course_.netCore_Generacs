@@ -1,13 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using System.Diagnostics;
-using System.Linq.Expressions;
 using WiredBrainCoffee.StorageApp.Entities;
 
 namespace WiredBrainCoffee.StorageApp.RepositryManagment;
 
 
-public class ListRepository<T /*,Tkey*/> :IRepository<T> where T : class, EntityBase
+public class ListRepository<T /*,Tkey*/> :IRepository<T> where T : class, IEntityBase
 {
     //protected Tkey? key { get; set; }
 

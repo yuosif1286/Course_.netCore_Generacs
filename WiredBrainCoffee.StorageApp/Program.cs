@@ -30,7 +30,7 @@ static  void WriteAllInConsole(IReadRepository<EntityBase> repository)
     }
 }
 
-var orginRepo = new ListRepository<Orginization>();
+var orginRepo = new ListRepository<Organization>();
 
 AddOrgin(orginRepo);
 
@@ -38,20 +38,35 @@ WriteAllInConsole(orginRepo);
 
 static void AddEmployee(IRepository<Employee> employeeRepo)
 {
-    employeeRepo.Add(new Employee { FirstName = "yoyo" });
-
-    employeeRepo.Add(new Employee { FirstName = "ali" });
-    employeeRepo.Add(new Employee { FirstName = "moshtack" });
+    var employees = new[]
+    {
+        new Employee { FirstName = "yoyo" },
+        new Employee { FirstName = "ali" },
+        new Employee { FirstName = "moshtack" }
+    };
+    AddBatch<Employee>(employeeRepo,employees);
 }
 
-static void AddOrgin(IRepository<Orginization> orginRepo)
+static void AddOrgin(IRepository<Organization> orginRepo)
 {
-    orginRepo.Add(new Orginization { Name = "Alkafeel" });
+    var oreginizations = new[]
+    {
+        new Organization { Name = "Alkafeel" },
+        new Organization { Name = "goldenCastl" },
+        new Organization { Name = "good" }
+    };
+    AddBatch(orginRepo, oreginizations);
+    
+}
 
-    orginRepo.Add(new Orginization { Name = "goldenCastl" });
-    orginRepo.Add(new Orginization { Name = "good" });
-
-    orginRepo.Save();
+static void AddBatch<T>(IWriteRepositery<T> repo, T[] items)
+where T: IEntityBase
+{
+    foreach (var item in items)
+    {
+        repo.Add(item);
+    }
+    repo.Save();
 }
 
 static void GetEmployeeById(IRepository<Employee> employeeRepo)
