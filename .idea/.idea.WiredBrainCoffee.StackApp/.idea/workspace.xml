@@ -8,17 +8,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="793b8624-0928-415f-b02d-8078756f0f24" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.vs/WiredBrainCoffee.StackApp/xs/UserPrefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/WiredBrainCoffee.StackApp/xs/UserPrefs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/WiredBrainCoffee.StackApp/xs/project-cache/WiredBrainCoffee.StorageApp-Debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/WiredBrainCoffee.StackApp/xs/project-cache/WiredBrainCoffee.StorageApp-Debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Data/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Data/AppDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Entities/EntityBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Entities/EntityBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Entities/IEntityBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Entities/IEntityBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Entities/Orginization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Entities/Organization.cs" afterDir="false" />
+    <list default="true" id="793b8624-0928-415f-b02d-8078756f0f24" name="Changes" comment="edit">
+      <change afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/RepositoryExtension.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/IRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/ListRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/ListRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/RepositoryBase.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +26,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/yuosif/Projects/Course_.netCore_Generacs/WiredBrainCoffee.StackApp/WiredBrainCoffee.StorageApp/Data/AppDbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/yuosif/Projects/Course_.netCore_Generacs/WiredBrainCoffee.StackApp/WiredBrainCoffee.StorageApp/Entities/EntityBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/yuosif/Projects/Course_.netCore_Generacs/WiredBrainCoffee.StackApp/WiredBrainCoffee.StorageApp/Entities/IEntityBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/yuosif/Projects/Course_.netCore_Generacs/WiredBrainCoffee.StackApp/WiredBrainCoffee.StorageApp/Program.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/yuosif/Projects/Course_.netCore_Generacs/WiredBrainCoffee.StackApp/WiredBrainCoffee.StorageApp/RepositryManagment/EmployeeRepositry.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/yuosif/Projects/Course_.netCore_Generacs/WiredBrainCoffee.StackApp/WiredBrainCoffee.StorageApp/RepositryManagment/IRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/yuosif/Projects/Course_.netCore_Generacs/WiredBrainCoffee.StackApp/WiredBrainCoffee.StorageApp/RepositryManagment/ListRepository.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectId" id="2UluZ6PdQl4opJly3vIsH3De5Vp" />
@@ -134,7 +130,7 @@
       <workItem from="1693666807046" duration="6912000" />
       <workItem from="1693706447109" duration="3065000" />
       <workItem from="1693901058905" duration="4222000" />
-      <workItem from="1693946439009" duration="1605000" />
+      <workItem from="1693946439009" duration="2936000" />
     </task>
     <task id="LOCAL؜-٠٠٠٠١" summary="new project">
       <option name="closed" value="true" />
@@ -232,7 +228,39 @@
       <option name="project" value="LOCAL؜" />
       <updated>1693701489912</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL؜-٠٠٠١٣" summary="edit ientityBase">
+      <option name="closed" value="true" />
+      <created>1693952913369</created>
+      <option name="number" value="٠٠٠١٣" />
+      <option name="presentableId" value="LOCAL؜-٠٠٠١٣" />
+      <option name="project" value="LOCAL؜" />
+      <updated>1693952913369</updated>
+    </task>
+    <task id="LOCAL؜-٠٠٠١٤" summary="create generic method">
+      <option name="closed" value="true" />
+      <created>1693952950338</created>
+      <option name="number" value="٠٠٠١٤" />
+      <option name="presentableId" value="LOCAL؜-٠٠٠١٤" />
+      <option name="project" value="LOCAL؜" />
+      <updated>1693952950338</updated>
+    </task>
+    <task id="LOCAL؜-٠٠٠١٥" summary="edit">
+      <option name="closed" value="true" />
+      <created>1693953006958</created>
+      <option name="number" value="٠٠٠١٥" />
+      <option name="presentableId" value="LOCAL؜-٠٠٠١٥" />
+      <option name="project" value="LOCAL؜" />
+      <updated>1693953006958</updated>
+    </task>
+    <task id="LOCAL؜-٠٠٠١٦" summary="edit">
+      <option name="closed" value="true" />
+      <created>1693953014289</created>
+      <option name="number" value="٠٠٠١٦" />
+      <option name="presentableId" value="LOCAL؜-٠٠٠١٦" />
+      <option name="project" value="LOCAL؜" />
+      <updated>1693953014289</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +305,9 @@
     <MESSAGE value="repo for sql In memory db" />
     <MESSAGE value="rename" />
     <MESSAGE value="add microsoft.entityframe work in memory" />
-    <option name="LAST_COMMIT_MESSAGE" value="add microsoft.entityframe work in memory" />
+    <MESSAGE value="edit ientityBase" />
+    <MESSAGE value="create generic method" />
+    <MESSAGE value="edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit" />
   </component>
 </project>

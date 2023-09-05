@@ -44,30 +44,21 @@ static void AddEmployee(IRepository<Employee> employeeRepo)
         new Employee { FirstName = "ali" },
         new Employee { FirstName = "moshtack" }
     };
-    AddBatch<Employee>(employeeRepo,employees);
+    employeeRepo.AddBatch(employees);
 }
 
-static void AddOrgin(IRepository<Organization> orginRepo)
+static void AddOrgin(IRepository<Organization> origenRepo)
 {
-    var oreginizations = new[]
+    var organizations = new[]
     {
         new Organization { Name = "Alkafeel" },
         new Organization { Name = "goldenCastl" },
         new Organization { Name = "good" }
     };
-    AddBatch(orginRepo, oreginizations);
-    
+    origenRepo.AddBatch(organizations);
 }
 
-static void AddBatch<T>(IWriteRepositery<T> repo, T[] items)
-where T: IEntityBase
-{
-    foreach (var item in items)
-    {
-        repo.Add(item);
-    }
-    repo.Save();
-}
+
 
 static void GetEmployeeById(IRepository<Employee> employeeRepo)
 {
