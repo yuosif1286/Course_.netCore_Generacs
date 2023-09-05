@@ -1,7 +1,7 @@
 ﻿namespace WiredBrainCoffee.StorageApp.Entities;
 
 
-public class EntityBase<TKey>:IEntityBase<TKey>
+public class EntityBase:EntityBase
 {
-    public TKey Id { get; set; }
+    public int Id { get; set; }
 }

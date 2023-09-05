@@ -9,8 +9,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="793b8624-0928-415f-b02d-8078756f0f24" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WiredBrainCoffee.StackApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WiredBrainCoffee.StackApp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/WiredBrainCoffee.StackApp/xs/UserPrefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/WiredBrainCoffee.StackApp/xs/UserPrefs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Entities/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Entities/Employee.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Entities/EntityBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Entities/EntityBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Entities/IEntityBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Entities/IEntityBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Entities/Orginization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Entities/Orginization.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/IRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/ListRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/ListRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/SqlRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/SqlRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,27 +44,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature/Storage",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/Storage&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/yuosif/Library/Application Support/JetBrains/Rider2023.1/resharper-host/DecompilerCache",
-      "/Users/yuosif/Library/Application Support/JetBrains/Rider2023.1/resharper-host/SourcesCache",
-      "/Users/yuosif/.local/share/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/yuosif/Library/Application Support/JetBrains/Rider2023.1/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/yuosif/Library/Application Support/JetBrains/Rider2023.1/resharper-host/SourcesCache&quot;,
+      &quot;/Users/yuosif/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected=".NET Project.WiredBrainCoffee.StackApp">
+}</component>
+  <component name="RunManager" selected=".NET Project.WiredBrainCoffee.StorageApp">
     <configuration name="WiredBrainCoffee.StackApp" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -124,6 +132,8 @@
       <workItem from="1693526544130" duration="809000" />
       <workItem from="1693531006485" duration="4594000" />
       <workItem from="1693666807046" duration="6912000" />
+      <workItem from="1693706447109" duration="3065000" />
+      <workItem from="1693901058905" duration="4222000" />
     </task>
     <task id="LOCAL؜-٠٠٠٠١" summary="new project">
       <option name="closed" value="true" />

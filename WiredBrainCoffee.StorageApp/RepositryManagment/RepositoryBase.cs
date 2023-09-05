@@ -3,7 +3,8 @@ using WiredBrainCoffee.StorageApp.Entities;
 
 namespace WiredBrainCoffee.StorageApp.RepositryManagment;
 
-public class SqlRepository<T> : IRepository<T> where T : class, IEntityBase<int>
+
+public class SqlRepository<T> : IRepository<T> where T : class, EntityBase
 {
     private readonly DbContext _dbContext;
     private readonly DbSet<T> _dbSet;
@@ -23,5 +24,10 @@ public class SqlRepository<T> : IRepository<T> where T : class, IEntityBase<int>
     public void Save()
     {
         _dbContext.SaveChanges();
+    }
+
+    public  IEnumerable<T> GetAll()
+    {
+        return  _dbSet.ToList();
     }
 }

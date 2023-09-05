@@ -1,11 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.Diagnostics;
 using System.Linq.Expressions;
 using WiredBrainCoffee.StorageApp.Entities;
 
 namespace WiredBrainCoffee.StorageApp.RepositryManagment;
 
-public class ListRepository<T /*,Tkey*/> :IRepository<T> where T : class, IEntityBase<int>
+
+public class ListRepository<T /*,Tkey*/> :IRepository<T> where T : class, EntityBase
 {
     //protected Tkey? key { get; set; }
 
@@ -26,9 +28,9 @@ public class ListRepository<T /*,Tkey*/> :IRepository<T> where T : class, IEntit
     public void Remove(T item) => _items.Remove(item);
     public void Save()
     {
-        foreach (var item in _items)
-        {
-            Console.WriteLine(item);
-        }
+     // save already in list<T>
     }
+
+    public  IEnumerable<T> GetAll() => _items.OrderBy(item=>item.Id).ToList();
+
 }

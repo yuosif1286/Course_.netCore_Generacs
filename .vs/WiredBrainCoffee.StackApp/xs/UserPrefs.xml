@@ -4,17 +4,27 @@
   <MonoDevelop.Ide.ItemProperties.WiredBrainCoffee.StackApp PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/yuosif/Projects/Course_.netCore_Generacs/WiredBrainCoffee.StackApp/WiredBrainCoffee.StorageApp/Program.cs" relfile="WiredBrainCoffee.StorageApp/Program.cs" line="17" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="WiredBrainCoffee.StorageApp/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WiredBrainCoffee.StorageApp/Data/AppDbContext.cs">
     <Files>
-      <File FileName="WiredBrainCoffee.StorageApp/Program.cs" Line="8" Column="27" />
+      <File FileName="WiredBrainCoffee.StorageApp/Program.cs" Line="18" Column="1" />
+      <File FileName="WiredBrainCoffee.StorageApp/RepositryManagment/SqlRepository.cs" Line="7" Column="33" />
+      <File FileName="WiredBrainCoffee.StorageApp/RepositryManagment/ISqlRepository.cs" Line="7" Column="28" />
+      <File FileName="WiredBrainCoffee.StorageApp/RepositryManagment/ListRepository.cs" Line="37" Column="50" />
+      <File FileName="WiredBrainCoffee.StorageApp/Data/AppDbContext.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="WiredBrainCoffee.StackApp" expanded="True" selected="True">
-            <Node name="WiredBrainCoffee.StorageApp" expanded="True" />
+          <Node name="WiredBrainCoffee.StackApp">
+            <Node name="WiredBrainCoffee.StorageApp">
+              <Node name="Data" expanded="True">
+                <Node name="AppDbContext.cs" selected="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
