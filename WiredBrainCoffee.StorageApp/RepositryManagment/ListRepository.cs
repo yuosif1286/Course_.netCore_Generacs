@@ -7,12 +7,12 @@ namespace WiredBrainCoffee.StorageApp.RepositryManagment;
 
 public class ListRepository<T /*,Tkey*/> :IRepository<T> where T : class, IEntityBase
 {
-    private readonly ItemAdded<T>? _itemAddedCallback;
+    private readonly Action<T>? _itemAddedCallback;
     //protected Tkey? key { get; set; }
 
     private readonly List<T> _items=new ();
 
-    public ListRepository(ItemAdded<T>? itemAddedCallback=null)
+    public ListRepository(Action<T>? itemAddedCallback=null)
     {
         _itemAddedCallback = itemAddedCallback;
     }

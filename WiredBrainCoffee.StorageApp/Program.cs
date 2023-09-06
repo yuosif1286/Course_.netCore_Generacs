@@ -4,15 +4,14 @@
 using WiredBrainCoffee.StorageApp.Entities;
 using WiredBrainCoffee.StorageApp.RepositryManagment;
 
-var itemAdded = new ItemAdded<Employee>(EmployeeAdded);
-var employeeRepo = new ListRepository<Employee>(itemAdded);
+
+var employeeRepo = new ListRepository<Employee>(EmployeeAdded);
 
 AddEmployee(employeeRepo);
 AddManager(employeeRepo);
 
 static void EmployeeAdded(Employee item)
 {
- 
     Console.WriteLine($"Employee added=> {item.FirstName}");
 }
 
