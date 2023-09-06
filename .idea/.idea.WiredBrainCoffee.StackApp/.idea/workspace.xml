@@ -8,9 +8,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="793b8624-0928-415f-b02d-8078756f0f24" name="Changes" comment="Create Generic delegate">
+    <list default="true" id="793b8624-0928-415f-b02d-8078756f0f24" name="Changes" comment="can use Action with delegate">
       <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/SqlRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/SqlRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/ListRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/ListRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,7 @@
     <setting file="mock:///Users/yuosif/Projects/Course_.netCore_Generacs/WiredBrainCoffee.StackApp/WiredBrainCoffee.StorageApp/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/yuosif/Projects/Course_.netCore_Generacs/WiredBrainCoffee.StackApp/WiredBrainCoffee.StorageApp/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/yuosif/Projects/Course_.netCore_Generacs/WiredBrainCoffee.StackApp/WiredBrainCoffee.StorageApp/RepositryManagment/IRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/yuosif/Projects/Course_.netCore_Generacs/WiredBrainCoffee.StackApp/WiredBrainCoffee.StorageApp/RepositryManagment/ListRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/yuosif/Projects/Course_.netCore_Generacs/WiredBrainCoffee.StackApp/WiredBrainCoffee.StorageApp/RepositryManagment/ListRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/yuosif/Projects/Course_.netCore_Generacs/WiredBrainCoffee.StackApp/WiredBrainCoffee.StorageApp/RepositryManagment/ListRepository.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -133,7 +134,7 @@
       <workItem from="1693666807046" duration="6912000" />
       <workItem from="1693706447109" duration="3065000" />
       <workItem from="1693901058905" duration="4222000" />
-      <workItem from="1693946439009" duration="8364000" />
+      <workItem from="1693946439009" duration="9472000" />
     </task>
     <task id="LOCAL؜-٠٠٠٠١" summary="new project">
       <option name="closed" value="true" />
@@ -295,7 +296,15 @@
       <option name="project" value="LOCAL؜" />
       <updated>1693959973421</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL؜-٠٠٠٢١" summary="can use Action with delegate">
+      <option name="closed" value="true" />
+      <created>1693960816102</created>
+      <option name="number" value="٠٠٠٢١" />
+      <option name="presentableId" value="LOCAL؜-٠٠٠٢١" />
+      <option name="project" value="LOCAL؜" />
+      <updated>1693960816103</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,6 +356,7 @@
     <MESSAGE value="creat EntityExtension.cs for copy data" />
     <MESSAGE value="edit EntityExtension.cs" />
     <MESSAGE value="Create Generic delegate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Generic delegate" />
+    <MESSAGE value="can use Action with delegate" />
+    <option name="LAST_COMMIT_MESSAGE" value="can use Action with delegate" />
   </component>
 </project>
