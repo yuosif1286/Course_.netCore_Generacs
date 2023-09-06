@@ -8,9 +8,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="793b8624-0928-415f-b02d-8078756f0f24" name="Changes" comment="RepositoryExtension.cs new add">
-      <change afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Entities/EntityExtension.cs" afterDir="false" />
+    <list default="true" id="793b8624-0928-415f-b02d-8078756f0f24" name="Changes" comment="edit EntityExtension.cs">
       <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/ListRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/ListRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/SqlRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee.StorageApp/RepositryManagment/SqlRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +27,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/2cc8510b78e64475ae2cf3960be5dd933000/10/76031828/02000006pdb8Low.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/yuosif/Projects/Course_.netCore_Generacs/WiredBrainCoffee.StackApp/WiredBrainCoffee.StorageApp/Data/AppDbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/yuosif/Projects/Course_.netCore_Generacs/WiredBrainCoffee.StackApp/WiredBrainCoffee.StorageApp/Entities/EntityBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/yuosif/Projects/Course_.netCore_Generacs/WiredBrainCoffee.StackApp/WiredBrainCoffee.StorageApp/Entities/IEntityBase.cs" root0="SKIP_HIGHLIGHTING" />
@@ -41,26 +43,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/Storage&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "feature/Storage",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "ReSpellerSettingsId",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/yuosif/Library/Application Support/JetBrains/Rider2023.1/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/yuosif/Library/Application Support/JetBrains/Rider2023.1/resharper-host/SourcesCache&quot;,
-      &quot;/Users/yuosif/.local/share/Symbols/src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/Users/yuosif/Library/Application Support/JetBrains/Rider2023.1/resharper-host/DecompilerCache",
+      "/Users/yuosif/Library/Application Support/JetBrains/Rider2023.1/resharper-host/SourcesCache",
+      "/Users/yuosif/.local/share/Symbols/src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Project.WiredBrainCoffee.StorageApp">
     <configuration name="WiredBrainCoffee.StackApp" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -131,7 +133,7 @@
       <workItem from="1693666807046" duration="6912000" />
       <workItem from="1693706447109" duration="3065000" />
       <workItem from="1693901058905" duration="4222000" />
-      <workItem from="1693946439009" duration="4167000" />
+      <workItem from="1693946439009" duration="6999000" />
     </task>
     <task id="LOCAL؜-٠٠٠٠١" summary="new project">
       <option name="closed" value="true" />
@@ -269,7 +271,23 @@
       <option name="project" value="LOCAL؜" />
       <updated>1693954741150</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL؜-٠٠٠١٨" summary="creat EntityExtension.cs for copy data">
+      <option name="closed" value="true" />
+      <created>1693955536030</created>
+      <option name="number" value="٠٠٠١٨" />
+      <option name="presentableId" value="LOCAL؜-٠٠٠١٨" />
+      <option name="project" value="LOCAL؜" />
+      <updated>1693955536030</updated>
+    </task>
+    <task id="LOCAL؜-٠٠٠١٩" summary="edit EntityExtension.cs">
+      <option name="closed" value="true" />
+      <created>1693955662689</created>
+      <option name="number" value="٠٠٠١٩" />
+      <option name="presentableId" value="LOCAL؜-٠٠٠١٩" />
+      <option name="project" value="LOCAL؜" />
+      <updated>1693955662689</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +336,8 @@
     <MESSAGE value="create generic method" />
     <MESSAGE value="edit" />
     <MESSAGE value="RepositoryExtension.cs new add" />
-    <option name="LAST_COMMIT_MESSAGE" value="RepositoryExtension.cs new add" />
+    <MESSAGE value="creat EntityExtension.cs for copy data" />
+    <MESSAGE value="edit EntityExtension.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit EntityExtension.cs" />
   </component>
 </project>
